@@ -1,0 +1,546 @@
+
+    * {
+      font-family: "Open Sans";
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
+    .main {
+      max-width: 100%;
+    }
+
+    .header {
+      padding: 4rem 5rem;
+    }
+
+    /* Page 1 */
+
+    .page-one {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 5rem 5rem 5rem;
+    }
+
+    .textarea-one {
+      width: 50%;
+    }
+
+    .illustration-one {
+      width: 50%;
+      object-fit: scale-down;
+    }
+
+    .desc.one {
+      margin-right: 3rem;
+    }
+
+    /* header navigation */
+
+    .navigation {
+      float: right;
+      list-style-type: none;
+    }
+
+    .navigation li {
+      display: inline-block;
+      padding-inline: 1rem;
+    }
+
+    .navigation a {
+      color: hsl(243, 87%, 12%);
+      text-decoration: none;
+    }
+
+    .navigation a:hover {
+      color: hsl(224, 93%, 58%);
+    }
+
+    /* Page 2 */
+
+    .page-two {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10rem 5rem 5rem 5rem;
+      background-image: url("../images/bg-curve-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+    }
+
+    .textarea-two {
+      width: 55%;
+    }
+
+    .illustration-two {
+      width: 45%;
+      object-fit: scale-down;
+    }
+
+    .desc.two {
+      margin-right: 7rem;
+    }
+
+    .green-link {
+      max-width: 100%;
+      padding-block: 0.25rem;
+      padding-inline: 0;
+      background-color: transparent;
+      font-size: 1rem;
+      color:hsl(170, 45%, 43%);
+      border: none;
+      border-bottom: 1px solid hsl(170, 45%, 43%);
+    }
+
+    .green-link:hover {
+      color:hsl(170, 45%, 53%);
+      border-bottom: 1px solid hsl(170, 45%, 53%);
+    }
+
+    #arrow {
+      vertical-align: middle;
+      padding-inline: 0.25rem;
+    }
+
+    /* Card */
+
+    .card {
+      max-width: 45%;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-block: 2rem;
+      color: hsl(243, 87%, 12%);
+      background-color: white;
+      box-shadow: 0 0 8px hsla(243, 87%, 12%, 0.1);
+    }
+
+    .testimonial {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+    
+    .testimony-profile {
+      height: 2.5rem;
+    }
+
+    .dp {
+      display: inline-block;
+      height: 100%;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    .profile-details {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .name {
+      margin: 0;
+      margin-left: 0.25rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.1rem;
+    }
+
+    .position {
+      margin: 0;
+      margin-left: 0.25rem;
+      font-size: 0.6rem;
+      font-weight: 400;
+      padding: 0.1rem;
+    }
+
+    /* Early access section */
+
+    .access {
+      display: flex;
+      align-items: center;
+      padding: 5rem;
+      color: white;
+      background-color: hsl(238, 22%, 44%);
+    }
+
+    .textarea-access {
+      width: 50%;
+      padding-right: 4rem;
+    }
+
+    .input-two {
+      width: 50%;
+      padding-left: 4rem;
+    }
+
+    /* Footer */
+
+    .logo-footer {
+      width: 15%;
+    }
+
+    .footer {
+      padding: 5rem;
+      background-color: hsl(243, 87%, 12%);
+    }
+
+    .details {
+      display: flex;
+      margin-top: 1rem;
+    }
+
+    .contact {
+      width: 35%;
+    }
+
+    .contact-item {
+      width: 100%;
+    }
+
+    .contact-icon {
+      display: inline-block;
+      margin-block: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .contact-detail {
+      display: inline-block;
+      margin-block: 0.5rem;
+      vertical-align: middle;
+      color: white;
+      margin-left: 1rem;
+    }
+
+    .links {
+      width: 40%;
+      display: flex;
+    }
+
+    .link-column {
+      width: 50%;
+    }
+
+    .links a {
+      display: block;
+      margin-block: 0.75rem;
+      text-decoration: none;
+      color: white;
+    }
+
+    .links a:hover {
+      color:hsl(224, 93%, 58%);
+    }
+
+    .social {
+      width: 25%;
+      padding: 0.75rem;
+    }
+
+    .fa-brands {
+      border-radius: 50%;
+      border: 2px solid white;
+      color: white;
+      font-size: 0.8rem;
+      margin-inline: 0.25rem;
+      padding: 0.5rem;
+      height: 0.8rem;
+      width: 0.8rem;
+      text-align: center;
+    }
+
+    .fa-brands:hover {
+      color: hsl(224, 93%, 58%);
+      border: 2px solid hsl(224, 93%, 58%);
+    }
+
+    /* Text */
+
+    .title {
+      color:hsl(243, 87%, 12%);
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 3.5rem;
+    }
+
+    .desc {
+      color:hsl(243, 87%, 12%);
+      font-weight: 500;
+    }
+
+    .title-access {
+      font-family: Raleway;
+      font-weight: 700;
+      font-size: 2rem;      
+    }
+
+    .desc-access {
+      font-weight: 400;
+      margin-right: 5rem;
+      line-height: 1.5rem;
+    }
+
+    /* Input fields */
+
+    .input-one {
+      width: 90%;
+    }
+
+    #email-one {
+      width: 50%;
+      padding: 0.65rem;
+      border-radius: 4px;
+      border: 1px solid hsl(243, 87%, 12%);
+      outline-color:hsl(243, 87%, 12%);
+    }
+
+    #email-two {
+      width: 80%;
+      padding: 1rem;
+      border-radius: 4px;
+      border: none;
+      outline: none;
+      box-shadow: 0 4px 8px hsla(243, 87%, 12%, 0.2);
+    }
+
+    /* Buttons */
+
+    .start-one {
+      width: 35%;
+      margin-left: 1rem;
+      border: none;
+      border-radius: 4px;
+      padding: 0.75rem;
+      font-weight: 500;
+      color: white;
+      background-color: hsl(224, 93%, 58%);
+      box-shadow: 0 4px 8px hsla(224, 93%, 58%, 0.2);
+    }
+
+    .start-two {
+      max-width: 100%;
+      border: none;
+      border-radius: 4px;
+      margin-top: 1rem;
+      padding: 1rem 3rem;
+      font-weight: 500;
+      color: white;
+      background-color: hsl(224, 93%, 58%);
+      box-shadow: 0 4px 8px hsla(243, 87%, 12%, 0.2);
+    }
+
+    .start-one:hover {
+      background-color: hsl(224, 93%, 65%);
+    }
+
+    .start-two:hover {
+      background-color: hsl(224, 93%, 65%);
+    }
+
+    @media screen and (max-width: 48em) {
+
+      .header {
+        padding: 2rem;
+      }
+
+      .logo {
+        width: 25%;
+      }
+
+      /* Page 1 */
+
+      .page-one {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 2rem;
+      }
+
+      .textarea-one {
+        width: 100%;
+        text-align: center;
+        padding-block: 1rem;
+      }
+
+      .illustration-one {
+        width: 100%;
+      }
+
+      .navigation {
+        margin: 0;
+      }
+
+      .navigation li {
+        padding-right: 1rem;
+        padding-left: 0;
+      }
+
+      /* Page 2 */
+
+      .page-two {
+        flex-direction: column-reverse;
+        background-image: url("../images/bg-curve-mobile.svg");
+        padding: 10rem 2rem 2rem 2rem;
+      }
+
+      .textarea-two {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .illustration-two {
+        width: 100%;
+      }
+
+      .desc.two {
+        margin-right: 0;
+      }
+      
+      .green-link {
+        margin-block: 1rem;
+      }
+
+      /* Card */
+
+      .card {
+        max-width: 80%;
+        margin-block: 2rem;
+        margin-inline: auto;
+        text-align: start;
+      }
+
+      /* Early access section */
+
+      .access {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem;
+      }
+
+      .textarea-access {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+      }
+
+      /* Input fields */
+
+      .input-one {
+        max-width: 100%;
+        margin-inline: auto;
+      }
+
+      .input-two {
+        width: 100%;
+        padding-left: 0;
+      }
+
+      #email-one {
+        width: 100%;
+        box-sizing: border-box;
+        margin-block: 1.5rem;
+        padding: 1rem;
+      }
+
+      #email-two {
+        width: 80%;
+        box-sizing: border-box;
+      }
+  
+      /* Footer */
+
+      .logo-footer {
+        width: 50%;
+      }
+
+      .footer {
+        padding: 3rem;
+      }
+
+      .details {
+        flex-direction: column;
+      }
+
+      .contact {
+        width: 100%;
+        margin-block: 1rem;
+      }
+  
+      .contact-detail {
+        margin-block: 0.5rem;
+        font-size: 1.25rem;
+      }
+
+      .links {
+        width: 100%;
+        flex-direction: column;
+        margin-block: 1rem;
+      }
+
+      .link-column {
+        width: 100%;
+      }
+
+      .links a{
+        font-size: 1.25rem;
+        padding-block: 0.5rem;
+      }
+
+      .social {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      /* Buttons */
+
+      .start-one {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+      }
+
+      .start-two {
+        width: 80%;
+        margin-block: 1rem;
+      }
+      
+      /* Text */
+
+      .title {
+        font-size: 2rem;
+        font-family: Open Sans;
+      }
+
+      .title.two {
+        font-size: 1.25rem;
+      }
+
+      .title-access {
+        font-size: 1.5rem;      
+      }
+
+      .desc {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 2rem;
+      }
+
+      .desc.one {
+        margin-right: 0;
+      }
+
+      .desc.two {
+        text-align: start;
+      }
+  
+      .desc-access {
+        margin-right: 0;
+        line-height: 2rem;
+      }
+    }
